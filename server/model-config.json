@@ -14,38 +14,39 @@
     ]
   },
   "User": {
-    "dataSource": "db"
+    "dataSource": "mongo",
+    "public": false
   },
   "AccessToken": {
-    "dataSource": "db",
+    "dataSource": "mongo",
     "public": false
   },
   "ACL": {
-    "dataSource": "db",
+    "dataSource": "mongo",
     "public": false
   },
   "RoleMapping": {
-    "dataSource": "db",
+    "dataSource": "mongo",
     "public": false
   },
   "Role": {
-    "dataSource": "db",
+    "dataSource": "mongo",
     "public": false
   },
   "category": {
-    "dataSource": "db",
+    "dataSource": "mongo",
     "public": true
   },
   "location": {
-    "dataSource": "db",
+    "dataSource": "mongo",
     "public": true
   },
   "service": {
-    "dataSource": "db",
+    "dataSource": "mongo",
     "public": true
   },
   "event": {
-    "dataSource": "db",
+    "dataSource": "mongo",
     "public": true
   }
 }

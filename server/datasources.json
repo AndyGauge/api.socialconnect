@@ -3,13 +3,14 @@
     "name": "db",
     "connector": "memory"
   },
-  "redis": {
+  "mongo": {
     "host": "localhost",
-    "port": 6379,
+    "port": 27017,
     "url": "",
+    "database": "socialconnect",
     "password": "",
-    "name": "redis",
-    "db": 0,
-    "connector": "kv-redis"
+    "name": "mongo",
+    "user": "",
+    "connector": "mongodb"
   }
 }
