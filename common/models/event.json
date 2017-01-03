@@ -15,18 +15,7 @@
     }
   },
   "validations": [],
-  "relations": {
-    "categories": {
-      "type": "hasMany",
-      "model": "category",
-      "foreignKey": ""
-    },
-    "locations": {
-      "type": "hasOne",
-      "model": "location",
-      "foreignKey": ""
-    }
-  },
+  "relations": {},
   "acls": [],
   "methods": {}
 }

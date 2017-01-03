@@ -18,7 +18,18 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "service": {
+      "type": "belongsTo",
+      "model": "service",
+      "foreignKey": ""
+    },
+    "event": {
+      "type": "belongsTo",
+      "model": "event",
+      "foreignKey": ""
+    }
+  },
   "acls": [],
   "methods": {}
 }

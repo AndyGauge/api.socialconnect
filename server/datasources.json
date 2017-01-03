@@ -2,5 +2,14 @@
   "db": {
     "name": "db",
     "connector": "memory"
+  },
+  "redis": {
+    "host": "localhost",
+    "port": 6379,
+    "url": "",
+    "password": "",
+    "name": "redis",
+    "db": 0,
+    "connector": "kv-redis"
   }
 }
